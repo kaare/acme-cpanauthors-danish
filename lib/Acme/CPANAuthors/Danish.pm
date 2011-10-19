@@ -5,7 +5,10 @@ use strict;
 use warnings;
 
 use Acme::CPANAuthors::Register (
+    ABH      => 'Ask Bjørn Hansen',
+    JONASBN  => 'jonasbn',
     KAARE    => 'Kaare Rasmussen',
+    MADZ     => 'Michael Anton Dines Zedeler',
 );
 
 =head2 SYNOPSIS
@@ -17,9 +20,9 @@ use Acme::CPANAuthors::Register (
 
     my $number   = $authors->count;
     my @ids      = $authors->id;
-    my @distros  = $authors->distributions('KAARE');
-    my $url      = $authors->avatar_url('KAARE');
-    my $kwalitee = $authors->kwalitee('KAARE');
+    my @distros  = $authors->distributions('ABH');
+    my $url      = $authors->avatar_url('JONASBN');
+    my $kwalitee = $authors->kwalitee('MADZ');
 
 =head1 DESCRIPTION
 
