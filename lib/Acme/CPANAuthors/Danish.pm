@@ -8,6 +8,7 @@ use Acme::CPANAuthors::Register (
     ABH      => 'Ask Bjørn Hansen',
     JONASBN  => 'jonasbn',
     KAARE    => 'Kaare Rasmussen',
+    LTHEGLER => 'Lars Thegler',
     MADZ     => 'Michael Anton Dines Zedeler',
 );
 
