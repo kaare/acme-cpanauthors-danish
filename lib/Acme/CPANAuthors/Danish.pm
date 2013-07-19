@@ -3,6 +3,7 @@ package Acme::CPANAuthors::Danish;
 
 use strict;
 use warnings;
+use utf8;
 
 use Acme::CPANAuthors::Register (
     ABH      => 'Ask Bjørn Hansen',
@@ -12,7 +13,9 @@ use Acme::CPANAuthors::Register (
     MADZ     => 'Michael Anton Dines Zedeler',
 );
 
-=head2 SYNOPSIS
+=encoding utf-8
+
+=head1 SYNOPSIS
 
     use Acme::CPANAuthors;
     use Acme::CPANAuthors::Danish;
