@@ -1,6 +1,7 @@
 Revision history for Acme-CPANAuthors-Danish
 
 {{$NEXT}}
+  * Add missing utf8 pragma, and fixed pod errors (Karen Etheridge)
 
 0.02      2011-10-21 17:36:28 Europe/Copenhagen
   * Added LTHEGLER.
