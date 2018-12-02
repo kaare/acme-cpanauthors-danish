@@ -7,10 +7,20 @@ use utf8;
 
 use Acme::CPANAuthors::Register (
     ABH      => 'Ask Bjørn Hansen',
+    GRUBER   => 'Anton Berezon',
+    WARMING  => 'Casper Warming',
+    BORUP    => 'Christian Borup',
+    KARASIK  => 'Dmitry Karasik',
+    UNIEJO   => 'Erik Johansen',
+    HTOUG    => 'Henrik Tougaard',
     JONASBN  => 'jonasbn',
     KAARE    => 'Kaare Rasmussen',
+    LBR      => 'Lars Balker',
     LTHEGLER => 'Lars Thegler',
+    LEGART   => 'Michael Legart',
     MADZ     => 'Michael Anton Dines Zedeler',
+    THOMAS   => 'Thomas Eibner',
+    TLBDK    => 'Troels Liebe Bentsen',
 );
 
 =encoding utf-8
